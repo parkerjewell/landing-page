@@ -126,6 +126,7 @@ a {
 .third-content {
     display: flex;
     justify-content: center;
+    background-color: #E5E7EB;
 }
 
 .quote {
@@ -167,6 +168,9 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 30px 60px;
 }
 
 .sign-up-header {
@@ -177,18 +181,6 @@ a {
 .footer {
     text-align: center;
     padding: 20px;
-}
-
-/*  */
-
-.third-content {
-    background-color: #E5E7EB;
-}
-
-.sign-up-content {
-    background-color: #3882F6;
-    border-radius: 10px;
-    padding: 30px 60px;
 }
 
 .sign-up-content .button {
