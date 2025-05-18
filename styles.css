@@ -60,6 +60,10 @@ a {
     margin: 50px 0px;
 }
 
+.content-left {
+    margin-right: 40px;
+}
+
 .hero-secondary {
     margin-bottom: 8px;
 }
