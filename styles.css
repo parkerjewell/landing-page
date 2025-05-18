@@ -21,6 +21,35 @@ p {
     color: #F9FAF8;
 }
 
+.header-logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary,
+.header-content > a {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300; /*Initially not seeing lighter text weight from this*/
+}
+
 .box {
     border: 2px solid #3882F6;
     border-radius: 8px;
