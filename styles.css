@@ -23,7 +23,8 @@ a {
 
 .header,
 .first-content,
-.footer {
+.footer,
+.sign-up-content {
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -152,12 +153,31 @@ a {
     height: 150px;
 }
 
+.fourth-content {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0px;
+}
+
+.sign-up-content {
+    flex-basis: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-header {
+    font-size: 24px;
+    font-weight: 500;
+}
+
 .third-content {
     background-color: #E5E7EB;
 }
 
 .sign-up-content {
     background-color: #3882F6;
+    padding: 30px 60px;
 }
 
 .sign-up-content .button {
