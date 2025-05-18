@@ -96,6 +96,12 @@ a {
     margin: 30px 0px;
 }
 
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
 .box-container {
     display: flex;
     justify-content: center;
@@ -113,10 +119,23 @@ a {
     flex-direction: column;
 }
 
-.information-header {
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
+.third-content {
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    max-width: 723px;
+    margin: 70px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.quote-person {
+    margin-top: 18px;
+    margin-right: 20px;
+    font-weight: 800;
 }
 
 .quote-text {
